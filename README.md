@@ -8,7 +8,6 @@ The workflow includes:
 - Data preprocessing and cleaning  
 - Feature engineering (removal of irrelevant/patent-related features)  
 - Model development with **Random Forest Classifier**  
-- Hyperparameter tuning using **Optuna**  
 - Model evaluation with **cross-validation** (ROC-AUC, Precision-Recall, F1-score, MCC, etc.)
 
 ---
@@ -35,7 +34,6 @@ pip install -r requirements.txt
 Key libraries:
 - `pandas`
 - `scikit-learn`
-- `optuna`
 - `matplotlib`
 - `seaborn`
 
